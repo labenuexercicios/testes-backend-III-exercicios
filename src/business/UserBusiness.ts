@@ -1,5 +1,5 @@
 import { UserDatabase } from "../database/UserDatabase"
-import { DeleteUserInputDTO, GetAllOutputDTO, GetByIdInputDTO, GetByIdOutputDTO, LoginInputDTO, LoginOutputDTO, SignupInputDTO, SignupOutputDTO } from "../dtos/userDTO";
+import { DeleteUserInputDTO, DeleteUserOutputDTO, GetAllOutputDTO, GetByIdInputDTO, GetByIdOutputDTO, LoginInputDTO, LoginOutputDTO, SignupInputDTO, SignupOutputDTO } from "../dtos/userDTO";
 import { BadRequestError } from "../errors/BadRequestError";
 import { NotFoundError } from "../errors/NotFoundError";
 import { User } from "../models/User";
@@ -139,7 +139,7 @@ export class UserBusiness {
         return output
     }
 
-    public deleteUser = async (input: DeleteUserInputDTO): Promise<void> => {
+    public deleteUser = async (input: DeleteUserInputDTO) => {
         const { idToDelete, token } = input
 
         if (typeof token !== "string") {
@@ -162,8 +162,13 @@ export class UserBusiness {
             throw new NotFoundError("'id' não existe")
         }
 
-        await this.userDatabase.deleteById(idToDelete)
+        await this.userDatabase.deleteById(idToDelete as string)
+
+    const output: DeleteUserOutputDTO = {
+      message: "USER DELETED SUCCESSFULLY",
     }
+    return output
+  }
 
     public getById = async (input: GetByIdInputDTO): Promise<GetByIdOutputDTO> => {
         const { idToFind } = input

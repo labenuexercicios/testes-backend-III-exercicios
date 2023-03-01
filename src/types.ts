@@ -23,6 +23,6 @@ export interface UserModel {
     name: string,
     email: string,
     password: string,
-    role: USER_ROLES,
-    createdAt: string
+    createdAt: string,
+    role: USER_ROLES
 }
