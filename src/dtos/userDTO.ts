@@ -26,6 +26,10 @@ export interface DeleteUserInputDTO {
     token: unknown
 }
 
+export interface DeleteUserOutputDTO {
+    message: string
+  }
+
 export interface GetByIdInputDTO {
     idToFind: string
 }
