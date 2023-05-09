@@ -1,10 +1,10 @@
-import { UserBusiness } from "../../src/business/UserBusiness"
-import { GetUsersSchema } from "../../src/dtos/user/getUsers.dto"
-import { USER_ROLES } from "../../src/models/User"
-import { HashManagerMock } from "../mocks/HashManagerMock"
-import { IdGeneratorMock } from "../mocks/IdGeneratorMock"
-import { TokenManagerMock } from "../mocks/TokenManagerMock"
-import { UserDatabaseMock } from "../mocks/UserDatabaseMock"
+import { UserBusiness } from "../../../src/business/UserBusiness"
+import { GetUsersSchema } from "../../../src/dtos/user/getUsers.dto"
+import { USER_ROLES } from "../../../src/models/User"
+import { HashManagerMock } from "../../mocks/HashManagerMock"
+import { IdGeneratorMock } from "../../mocks/IdGeneratorMock"
+import { TokenManagerMock } from "../../mocks/TokenManagerMock"
+import { UserDatabaseMock } from "../../mocks/UserDatabaseMock"
 
 describe("Testando getUsers", () => {
   const userBusiness = new UserBusiness(

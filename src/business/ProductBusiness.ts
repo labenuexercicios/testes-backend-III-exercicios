@@ -58,6 +58,10 @@ export class ProductBusiness {
       throw new BadRequestError("somente admins podem acessar")
     }
 
+    if (price <= 0) {
+      throw new BadRequestError("preço não pode ser 0 ou negativo")
+    }
+
     const id = this.idGenerator.generate()
 
     const newProduct = new Product(
