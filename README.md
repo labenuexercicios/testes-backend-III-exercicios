@@ -6,7 +6,8 @@ Utilize esse template para criar um repo pessoal na sua conta e trabalhe nele.
 
 ## Enunciado
 
-Temos nesse repo o gabarito dos exercícios anteriores, mas agora com uma nova entidade Product.
+Temos nesse repo o gabarito dos exercícios anteriores, mas agora com uma nova entidade Product.<br>
+O mock de ProductDatabase já está implementado.
 
 ### Exercício 1
 
