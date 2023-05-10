@@ -23,7 +23,7 @@ export class ProductBusiness {
 
     if (payload === null) {
         throw new BadRequestError("token inválido")
-    } 
+    }
 
     const productsDB = await this.productDatabase.findProducts(q)
 
@@ -52,14 +52,10 @@ export class ProductBusiness {
 
     if (payload === null) {
         throw new BadRequestError("token inválido")
-    } 
+    }
 
     if (payload.role !== USER_ROLES.ADMIN) {
       throw new BadRequestError("somente admins podem acessar")
-    }
-
-    if (price <= 0) {
-      throw new BadRequestError("preço não pode ser 0 ou negativo")
     }
 
     const id = this.idGenerator.generate()
