@@ -71,7 +71,7 @@ export class ProductBusiness {
     await this.productDatabase.insertProduct(newProductDB)
 
     const output: CreateProductOutputDTO = {
-      message: "Producto cadastrado com sucesso",
+      message: "Produto cadastrado com sucesso",
       product: newProduct.toBusinessModel()
     }
 

@@ -1,3 +1,4 @@
+import e from 'cors'
 import { TokenPayload, USER_ROLES } from '../../src/models/User'
 
 export class TokenManagerMock {
@@ -30,7 +31,6 @@ export class TokenManagerMock {
         name: "Astrodev",
         role: USER_ROLES.ADMIN
       }
-
     } else {
       return null
     }
