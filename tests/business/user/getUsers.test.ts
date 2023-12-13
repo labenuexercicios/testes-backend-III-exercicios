@@ -1,4 +1,3 @@
-import { ZodError } from "zod"
 import { UserBusiness } from "../../../src/business/UserBusiness"
 import { GetUsersSchema } from "../../../src/dtos/user/getUsers.dto"
 import { BadRequestError } from "../../../src/errors/BadRequestError"
@@ -57,5 +56,22 @@ describe("Testando getUsers", () => {
       }
     }
   });
-})
 
+
+test("Deve disparar erro se o token for inválido ao tentar um Get Users", async () => {
+  expect.assertions(1);
+  try {
+    const input = GetUsersSchema.parse({
+      token: "token-mock-fulano",
+    });
+
+    const output = await userBusiness.getUsers(input)
+
+  } catch (error) {
+    if (error instanceof BadRequestError) {
+      expect(error.message).toEqual("somente admins podem acessar");
+    }
+  }
+});
+
+})

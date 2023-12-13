@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702425094788" clover="3.2.0">
-  <project timestamp="1702425094788" name="All files">
-    <metrics statements="195" coveredstatements="172" conditionals="26" coveredconditionals="16" methods="69" coveredmethods="53" elements="290" coveredelements="241" complexity="0" loc="195" ncloc="195" packages="7" files="17" classes="17"/>
+<coverage generated="1702441379400" clover="3.2.0">
+  <project timestamp="1702441379400" name="All files">
+    <metrics statements="195" coveredstatements="177" conditionals="26" coveredconditionals="20" methods="69" coveredmethods="53" elements="290" coveredelements="250" complexity="0" loc="195" ncloc="195" packages="7" files="17" classes="17"/>
     <package name="src.business">
-      <metrics statements="82" coveredstatements="79" conditionals="7" coveredconditionals="4" methods="14" coveredmethods="14"/>
-      <file name="ProductBusiness.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/business/ProductBusiness.ts">
+      <metrics statements="82" coveredstatements="82" conditionals="7" coveredconditionals="7" methods="14" coveredmethods="14"/>
+      <file name="ProductBusiness.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/business/ProductBusiness.ts">
         <metrics statements="33" coveredstatements="33" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
@@ -40,8 +40,8 @@
         <line num="73" count="1" type="stmt"/>
         <line num="78" count="1" type="stmt"/>
       </file>
-      <file name="UserBusiness.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/business/UserBusiness.ts">
-        <metrics statements="49" coveredstatements="46" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="8"/>
+      <file name="UserBusiness.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/business/UserBusiness.ts">
+        <metrics statements="49" coveredstatements="49" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="8"/>
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
@@ -51,13 +51,13 @@
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="27" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="1" type="stmt"/>
-        <line num="31" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="2" type="stmt"/>
@@ -77,15 +77,15 @@
         <line num="83" count="1" type="stmt"/>
         <line num="88" count="1" type="stmt"/>
         <line num="91" count="3" type="stmt"/>
-        <line num="93" count="1" type="stmt"/>
-        <line num="94" count="1" type="stmt"/>
-        <line num="96" count="1" type="stmt"/>
-        <line num="98" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="99" count="0" type="stmt"/>
-        <line num="102" count="1" type="stmt"/>
-        <line num="104" count="1" type="stmt"/>
-        <line num="106" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="107" count="0" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="96" count="3" type="stmt"/>
+        <line num="98" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="106" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="107" count="1" type="stmt"/>
         <line num="110" count="1" type="stmt"/>
         <line num="119" count="1" type="stmt"/>
         <line num="125" count="1" type="stmt"/>
@@ -95,7 +95,7 @@
     </package>
     <package name="src.database">
       <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="BaseDatabase.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/database/BaseDatabase.ts">
+      <file name="BaseDatabase.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/database/BaseDatabase.ts">
         <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="5" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
@@ -107,7 +107,7 @@
     </package>
     <package name="src.dtos.product">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="createProduct.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/dtos/product/createProduct.dto.ts">
+      <file name="createProduct.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/dtos/product/createProduct.dto.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
@@ -116,19 +116,19 @@
     </package>
     <package name="src.dtos.user">
       <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="getUsers.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/dtos/user/getUsers.dto.ts">
+      <file name="getUsers.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/dtos/user/getUsers.dto.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
       </file>
-      <file name="login.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/dtos/user/login.dto.ts">
+      <file name="login.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/dtos/user/login.dto.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
       </file>
-      <file name="signup.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/dtos/user/signup.dto.ts">
+      <file name="signup.dto.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/dtos/user/signup.dto.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -136,29 +136,29 @@
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="BadRequestError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/errors/BadRequestError.ts">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BadRequestError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/errors/BadRequestError.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="5" type="stmt"/>
         <line num="3" count="5" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
       </file>
-      <file name="BaseError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/errors/BaseError.ts">
+      <file name="BaseError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/errors/BaseError.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="5" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
       </file>
-      <file name="NotFoundError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/errors/NotFoundError.ts">
-        <metrics statements="3" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="NotFoundError.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/errors/NotFoundError.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.models">
       <metrics statements="39" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="27" coveredmethods="18"/>
-      <file name="Product.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/models/Product.ts">
+      <file name="Product.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/models/Product.ts">
         <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
         <line num="15" count="3" type="stmt"/>
         <line num="17" count="8" type="stmt"/>
@@ -176,7 +176,7 @@
         <line num="56" count="1" type="stmt"/>
         <line num="65" count="3" type="stmt"/>
       </file>
-      <file name="User.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/src/models/User.ts">
+      <file name="User.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/src/models/User.ts">
         <metrics statements="24" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="16" coveredmethods="7"/>
         <line num="1" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="2" count="5" type="stmt"/>
@@ -205,27 +205,27 @@
       </file>
     </package>
     <package name="tests.mocks">
-      <metrics statements="47" coveredstatements="38" conditionals="15" coveredconditionals="10" methods="22" coveredmethods="16"/>
-      <file name="HashManagerMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/tests/mocks/HashManagerMock.ts">
-        <metrics statements="10" coveredstatements="8" conditionals="3" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <metrics statements="47" coveredstatements="39" conditionals="15" coveredconditionals="11" methods="22" coveredmethods="16"/>
+      <file name="HashManagerMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/tests/mocks/HashManagerMock.ts">
+        <metrics statements="10" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="cond" truecount="1" falsecount="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="1"/>
         <line num="14" count="1" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
       </file>
-      <file name="IdGeneratorMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/tests/mocks/IdGeneratorMock.ts">
+      <file name="IdGeneratorMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/tests/mocks/IdGeneratorMock.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="5" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="ProductDatabaseMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/tests/mocks/ProductDatabaseMock.ts">
+      <file name="ProductDatabaseMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/tests/mocks/ProductDatabaseMock.ts">
         <metrics statements="9" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="2"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -237,7 +237,7 @@
         <line num="31" count="1" type="stmt"/>
         <line num="38" count="0" type="stmt"/>
       </file>
-      <file name="TokenManagerMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/tests/mocks/TokenManagerMock.ts">
+      <file name="TokenManagerMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/tests/mocks/TokenManagerMock.ts">
         <metrics statements="14" coveredstatements="13" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
         <line num="2" count="5" type="stmt"/>
         <line num="4" count="5" type="stmt"/>
@@ -248,13 +248,13 @@
         <line num="12" count="1" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="20" count="5" type="stmt"/>
-        <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="21" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
         <line num="28" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="29" count="3" type="stmt"/>
         <line num="35" count="3" type="stmt"/>
       </file>
-      <file name="UserDatabaseMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios/tests/mocks/UserDatabaseMock.ts">
+      <file name="UserDatabaseMock.ts" path="/Users/luizfelipelima/Desktop/labenu/testes-backend-III-exercicios.zip/tests/mocks/UserDatabaseMock.ts">
         <metrics statements="11" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -266,7 +266,7 @@
         <line num="31" count="0" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="48" count="2" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
       </file>
     </package>
   </project>
